@@ -47,7 +47,7 @@ then
 
     
 else
-    read -p "Введите название папки в которой нужно изменить файлы: " folder
+    read -p "Введите название папки в которой нужно изменить файлы [folder1/folder2/target_folder]: " folder
     if [[ ! -d $folder ]]
     then
         echo "Папка для с файлами не найдена"
